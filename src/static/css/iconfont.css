@@ -1,0 +1,52 @@
+
+@font-face {
+  font-family: "iconfont";
+  src: url("../font/iconfont.ttf") format('truetype')
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+.icon-msnui-arrow-right:before { content: "\e66c"; }
+
+.icon-msnui-tel:before { content: "\e693"; }
+
+.icon-laba:before { content: "\e600"; }
+
+.icon-sousuo:before { content: "\e7d4"; }
+
+.icon-more:before { content: "\e637"; }
+
+.icon-wancheng:before { content: "\e654"; }
+
+.icon-right-arrow:before { content: "\e627"; }
+
+.icon-gerenzhongxin:before { content: "\e689"; }
+
+.icon-mima:before { content: "\e64c"; }
+
+.icon-youxiang:before { content: "\e623"; }
+
+.icon-zengjia:before { content: "\e60f"; }
+
+.icon-guanji:before { content: "\e678"; }
+
+.icon-iconfontzhizuobiaozhun0261:before { content: "\e6cb"; }
+
+.icon-beizhuweitianxie:before { content: "\e609"; }
+
+.icon-ID:before { content: "\e614"; }
+
+.icon-icon-test:before { content: "\e629"; }
+
+.icon-riqi:before { content: "\e601"; }
+
+.icon-biaozhungongshizhidinghefenxi:before { content: "\e61d"; }
+

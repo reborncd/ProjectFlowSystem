@@ -1,0 +1,177 @@
+@charset "UTF-8";
+*{box-sizing: border-box}
+html{width: 100%;min-height: 100%;}
+body{
+  min-height: 100%;
+}
+blockquote,body,code,dd,div,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,input,legend,li,ol,p,pre,td,textarea,th,ul{margin:0;padding:0}
+table{border-collapse:collapse;border-spacing:0}
+fieldset,img{border:0}
+em,strong{font-style:normal;font-weight:400}
+li{list-style:none}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:400}
+body,button,input,textarea{font-size:14px;font-family:microsoft yahei,Arial,Helvetica,sans-serif;vertical-align:middle}
+a{text-decoration:none;outline:none}
+a:hover{cursor:pointer;text-decoration:none}
+td,th{vertical-align:top}
+.fl{float:left}
+.fr{float:right}
+.por{position: relative}
+.poa{position: absolute}
+.i-b{display: inline-block;vertical-align: middle}
+.block{display: block!important;}
+.clear:after{content:"";display:block;clear:both}
+.w1100{width: 1100px;margin: 0 auto}
+.hide{display: none;}
+.show{display: block}
+.hashead{margin-top: 80px;}
+.rotate360 {
+  animation: 5s rotate360 infinite linear;
+}
+.clear:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+.cell>p[title]{
+  margin: 0 auto;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/*浮框宽度*/
+.el-tooltip__popper.is-dark{
+  max-width: 1000px;
+}
+/*富文本框隐藏toolbar*/
+/*.ql-toolbar.ql-snow{*/
+  /*display: none;*/
+/*}*/
+/*.ql-container.ql-snow{*/
+  /*border-top:1px solid #ccc;*/
+/*}*/
+#mask {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.0);
+  z-index: 9999;
+}
+
+#loading {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 40px;
+  margin: auto;
+  color: #ff6700;
+  z-index: 10000;
+}
+
+/*需求页面实时统计和工时统计样式*/
+.workHours div{
+  width: 100%!important;
+}
+.workHours div canvas{
+  width: 100%!important;
+}
+.sstabs .el-tabs__nav-scroll{
+  background: white!important;
+  color: black;
+  width: 200px;
+  text-align: center;
+  float: right;
+}
+.sstabs .el-tabs__active-bar{
+  height: 0;
+}
+.sstabs .el-tabs__nav-wrap::after{
+  height: 0!important;
+}
+
+
+/*全程跟踪视图模式*/
+.tracking-wrapper li{
+  margin-top:20px;
+  position: relative;
+  width: 20%;
+}
+.tracking-wrapper li .content{
+  width: 85%;
+  /* border: 2px solid #ccc; */
+  text-align: center;
+  line-height: 30px;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 3px 5px 14px #ccc;
+}
+.tracking-wrapper li .content .action{
+  background: #404d5d;
+  color: white;
+}
+.tracking-wrapper li .content .date{
+  border-bottom:1px solid #ccc;
+  background: #ecf5ff;
+}
+.tracking-wrapper li .info-wrapper{
+  height: 100px;
+  overflow-y: auto;
+  background: #ecf5ff;
+}
+.tracking-wrapper li .content .info{
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 13px;
+  line-height: 1;
+  padding: 5px;
+}
+.tracking-wrapper li .content.border-dashed{
+  border:1px dashed #cecece;
+}
+.tracking-wrapper li .icon-wrapper{
+  width: 15%;
+  line-height: 160px;
+  text-align: center
+}
+.tracking-wrapper li i{
+  color: #409eff;
+  font-size: 25px;
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+.tracking-wrapper li .date{
+  font-size: 13px;
+  line-height: 30px;
+}
+.hover-wrap{
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  width: 500px;
+  padding:20px;
+  background: white;
+  z-index: 8888;
+  border: 1px solid #f4f4f4;
+  box-shadow:  0 0 10px #f4f4f4;
+}
+.tracking-wrapper li.not{
+  opacity: 0.5;
+}

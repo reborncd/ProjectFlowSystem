@@ -1,0 +1,70 @@
+@charset "UTF-8";
+.el-date-editor .el-range-separator{
+    padding: 0!important;
+}
+.el-date-editor--datetimerange.el-input__inner{
+    width: 350px!important;
+}
+.table-list {
+    margin-top: 20px;
+    text-align: center !important;
+}
+
+.table-list table th div {
+    text-align: center !important;
+}
+
+table.el-table__header th {
+    color: white;
+    background: #939da9!important;
+}
+
+.el-table--border tr td:last-child, .el-table--border tr th:last-child {
+    border-right: 0 !important;
+}
+
+table .action-wrap button {
+    padding: 5px 12px;
+    margin: 0;
+}
+
+.pagStep {
+    margin-top: 20px;
+    text-align: right;
+    padding-right: 0;
+}
+
+.pagStep .pageInfo span {
+    display: inline-block;
+    line-height: 32px;
+    margin: 0 5px;
+}
+
+.pagStep .pageInfo i {
+    font-style: normal;
+    margin: 0 3px;
+}
+
+.pagStep .btn-next {
+    margin-right: 0 !important;
+}
+
+.el-pagination.is-background .el-pager li.active {
+    background-color: #d85450;
+    color: #fff;
+}
+
+.el-pagination.is-background .el-pager li.active:hover {
+    color: #fff;
+}
+
+.el-pagination.is-background .el-pager li:hover {
+    color: #d85450;
+}
+tr,td{
+    cursor: pointer;
+}
+.table-list .el-pagination{
+  text-align: right;
+  margin-top:5px;
+}

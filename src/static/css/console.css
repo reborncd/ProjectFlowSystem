@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+.console-tab-wrapper {
+    position: relative;
+    margin-top: 20px;
+    border: 1px solid #eeeeee;
+}
+.console-action-wrapper{
+    position: absolute;
+    right: 0;
+    top:0;
+    margin-right:10px;
+    line-height: 40px;
+    z-index: 1;
+}
+.console-action-wrapper>i{
+    cursor: pointer;
+    font-size: 20px;
+    height: 40px;
+    line-height: 40px;
+    float: right;
+    margin-right:15px;
+}
+.console-action-wrapper .console-action {
+    position: absolute;
+    right: 0;
+    top: 32px;
+    width: 115px;
+    /*max-height: 150px;*/
+    overflow-y: auto;
+    text-align: center;
+    color: black;
+    background: white;
+    box-shadow: 1px 1px 10px #ccc;
+}
+.console-action-wrapper .console-action span{
+    display: block;
+    line-height: 20px;
+    padding: 5px 0;
+    margin: 3px 0;
+    cursor: pointer;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+.console-action-wrapper .console-action span:hover{
+    background: #f4f4f4;
+}
+.console-tab-wrapper .el-tabs__nav-scroll {
+    background: #eeeeee
+}
+
+.console-tab-wrapper .el-tabs__item {
+    border: none !important;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.console-tab-wrapper .el-tabs__nav {
+    border: none !important;
+}
+
+.console-tab-wrapper .el-tabs__header {
+    margin: 0;
+}
+
+.console-tab-wrapper .el-tabs__item.is-active {
+    color: #db5450;
+    background: white;
+}
+
+.console-tab-wrapper .el-tabs__active-bar {
+    background-color: #db5450;
+}
+
+.console-tab-wrapper .el-tabs__item:hover {
+    color: #db5450;
+}
+.console-tab-content{
+    width: 100%;
+    overflow-x:hidden;
+    overflow-y: auto;
+    padding: 10px 15px;
+}
+.console-tab-content .el-form-item{
+    margin-bottom:10px;
+}

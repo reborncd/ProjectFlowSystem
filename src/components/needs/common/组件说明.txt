@@ -1,0 +1,11 @@
+allbug          详情页的BUG清单
+download        下载列表的弹窗（开发手册，用例模板，生产报告等）
+old-task-code   开发的原任务（暂时废弃）
+old-test-code   测试的原任务（暂时废弃）
+split-task      拆分项目详情里的所有拆分任务
+split-ping      拆分项目详情里的评审结果
+tracking        全程跟踪视图模式
+upload          上传文件弹窗
+upload-report   上传测试报告
+realtime        操作台的实时统计
+
